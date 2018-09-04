@@ -11,7 +11,7 @@ public class Hello {
 	
 	@RequestMapping("/hello")
 	public String sayHello() {
-		return "3.hello jenkins "+ new Date();
+		return "3.hello jenkins "+ new Date()+" modified-1";
 	}
 
 }
